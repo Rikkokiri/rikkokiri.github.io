@@ -1,0 +1,12 @@
+/* @author Pilvi Rajala (Rikkokiri) */
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}

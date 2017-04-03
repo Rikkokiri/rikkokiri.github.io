@@ -1,0 +1,77 @@
+/* Styling for the landing page */
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  /*font-family: 'Khula', sans-serif;*/
+
+  /*font-family: 'Alegreya Sans SC', sans-serif;*/
+
+  /*background: url("../resources/birds.jpg"); /* TODO Use media queries to serve mobile devices a smaller version of the image */*/
+
+  /* Background image is centered vertically and horizontally. */
+  /*background-position: center center;
+  background-repeat: no-repeat;*/
+
+  /* Background image is fixed in viewport so that it doesn't move when height
+  of the content is greater than the height of the image */
+  /*background-attachment: fixed;
+  background-size: cover;
+  background-color: #DBE3F0;*/
+
+}
+
+html, body, main {
+  height: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+div.image-container {
+  margin-bottom: 30px;
+}
+
+img#profile-image {
+  height: 250px;
+  border-radius: 50%;
+  margin-top: -100px;
+
+}
+
+div.introduction {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.introduction #name {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+div.link-container {
+  margin-top: 40px;
+}
+
+ul.social-links {
+  list-style: none;
+}
+
+ul.social-links li {
+  display: inline-block;
+}
+
+ul.social-links li img {
+  height: 3.5rem;
+  margin: 0 0.5rem 0 0.5rem;
+}

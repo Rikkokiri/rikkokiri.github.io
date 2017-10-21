@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-  background-color: #000;
+  background: url('../resources/gloves.jpg');
   color: #ffffff;
   font-family: 'Lato', sans-serif;
   /*font-family: 'Khula', sans-serif;*/
@@ -45,6 +45,9 @@ div.image-container {
 img#profile-image {
   height: 250px;
   border-radius: 50%;
+  border-width: 5px;
+  border-color: #000;
+  border-style: solid;
 }
 
 div.introduction {

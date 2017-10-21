@@ -1,0 +1,132 @@
+/* Styling for the landing page */
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url('../resources/gloves.jpg');
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  /*font-family: 'Khula', sans-serif;*/
+  /*font-family: 'Alegreya Sans SC', sans-serif;*/
+
+  /* Background image is centered vertically and horizontally. */
+  /*background-position: center center;*/
+  /*background-repeat: no-repeat;*/
+
+  /* Background image is fixed in viewport so that it doesn't move when height*/
+  /*of the content is greater than the height of the image */
+  /*background-attachment: fixed;*/
+  /*background-size: cover;*/
+  /*background-color: #DBE3F0;*/
+
+}
+
+html, body, main {
+  height: 100%;
+}
+
+/* ========= NAVIGATION ========= */
+
+header {
+  min-width: 100%;
+  overflow: auto;
+}
+
+nav ul {
+  display: inline-block;
+  float: right;
+  padding: 1rem 2rem 0 0;
+  list-style-type: none;
+
+  li {
+    display: inline-block;
+    padding: 1rem;
+  }
+
+  li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.2rem;
+  }
+
+  li a:hover, li a:focus {
+    color: red;
+  }
+}
+
+
+/* ========= ? ========= */
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+div.image-container {
+  margin-bottom: 30px;
+}
+
+img#profile-image {
+  height: 250px;
+  margin-top: 4rem;
+
+  border-radius: 50%;
+  border-width: 5px;
+  border-color: #000;
+  border-style: solid;
+}
+
+div.introduction {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.introduction #name {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+div.introduction .summary {
+  font-size: 1.2rem;
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 2.5rem;
+  margin-bottom: 5rem;
+  padding: 1.5rem;
+  font-weight: 300;
+  line-height: normal;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+div.link-container {
+  margin-top: 40px;
+}
+
+ul.social-links {
+  list-style: none;
+}
+
+ul.social-links li {
+  display: inline-block;
+}
+
+ul.social-links li img {
+  height: 3.5rem;
+  margin: 0 0.5rem 0 0.5rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 1.5rem 0 3rem 0;
+  background-color: #160902;
+}

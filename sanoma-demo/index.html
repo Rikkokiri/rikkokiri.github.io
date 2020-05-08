@@ -10,6 +10,9 @@
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
+    <!-- Stylesheets -->
+    <link type="text/css" rel="stylesheet" href="../css/sanoma.css">
+
     <!-- - - -  Fonts - - - -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <!-- <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300,400,700,900" rel="stylesheet"> -->
@@ -18,12 +21,20 @@
   </head>
 
   <body>
-    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-    <df-messenger
-      intent="WELCOME"
-      chat-title="SanomaDemo"
-      agent-id="8939e54d-253a-4eca-ba63-130ced0f9ddc"
-      language-code="en"
-    ></df-messenger>
+
+    <h1>Sanoma Demo</h1>
+
+    <div class="chatbox">
+      <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+      <df-messenger
+        intent="WELCOME"
+        chat-title="Samu Sanoma"
+        agent-id="8939e54d-253a-4eca-ba63-130ced0f9ddc"
+        language-code="en"
+        expand="true"
+        chat-icon="http://rikkokiri.github.io/sanoma-demo/sanoma-icon.ico"
+      >
+      </df-messenger>
+    </div>
   </body>
 </html>

@@ -1,7 +1,14 @@
-body {
+html {
   font-size: 14px;
-  margin: 0 auto;
+}
+
+h1 {
+  margin-top: 2rem;
   text-align: center;
+  font-family: Open Sans, sans-serif;
+  letter-spacing: .4px;
+  font-weight: 700;
+  font-size: 3rem;
 }
 
 df-messenger {
@@ -11,4 +18,17 @@ df-messenger {
   --df-messenger-font-color: white;
   --df-messenger-send-icon: #878fac;
   --df-messenger-user-message: #479b3d;
+  /* df-messenger-bot-message	Bubble background color for agent messages.
+  df-messenger-button-titlebar-color	Color for the floating button and the titlebar of the chat dialog.
+  df-messenger-button-titlebar-font-color	Font color for the title in the titlebar.
+  df-messenger-chat-background-color	Color for the chat dialog background.
+  df-messenger-font-color	Font color for messages.
+  df-messenger-input-box-color	Background color for the text input box.
+  df-messenger-input-font-color	Font color for the text input box.
+  df-messenger-input-placeholder-font-color	Font color for placeholder text in text input box.
+  df-messenger-minimized-chat-close-icon-color	Color of the close icon in the closed chat view.
+  df-messenger-send-icon	Color of the send icon in the text input box.
+  df-messenger-user-message	Bubble background color for user messages. */
  }
+
+ 

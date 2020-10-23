@@ -1,111 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Ossian Rajala</title> <!-- TODO: Change this! -->
-    <meta charset="utf-8">
 
-    <!--Import Google Icon Font-->
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<head>
+  <title>Ossian Rajala</title> <!-- TODO: Change this! -->
+  <meta charset="utf-8">
 
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <!-- Stylesheets -->
-    <link type="text/css" rel="stylesheet" href="css/cssreset.css"> <!-- CSS reset -->
-    <link type="text/css" rel="stylesheet" href="css/landingpage.css">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- - - -  Fonts - - - -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <!-- <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300,400,700,900" rel="stylesheet"> -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Khula:300,400,700" rel="stylesheet"> -->
+  <!-- Stylesheets -->
+  <!-- <link type="text/css" rel="stylesheet" href="css/cssreset.css">-->
+  <!-- CSS reset -->
+  <link type="text/css" rel="stylesheet" href="css/landingpage.css">
 
-  </head>
+  <!-- - - -  Fonts - - - -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;300;400;500;600;700&display=swap"
+    rel="stylesheet">
 
-  <body>
+</head>
 
-    <header>
+<body>
+  <!-- <header>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">HOME</a>
+        </li>
+        <li>
+          <a href="about.html">ABOUT</a>
+        </li>
+        <li>
+          <a href="portfolio/index.html">PORTFOLIO</a>
+        </li>
+        <li>
+          <a href="#!">CONTACT</a>
+        </li>
+      </ul>
+    </nav>
+  </header> -->
+  <main>
+    <h1 class="comment">/* Developer: <br>Ossian Rajala */</h1>
 
-      <nav>
-
-        <ul>
-          <li>
-            <a href="index.html">HOME</a>
-          </li>
-          <li>
-            <a href="about.html">ABOUT</a>
-          </li>
-          <li>
-            <a href="portfolio/index.html">PORTFOLIO</a>
-          </li>
-          <li>
-            <a href="#!">CONTACT</a>
-          </li>
-        </ul>
-        
-      </nav>
-
-    </header>
-
-    <main>
-
-      <div class="image-container">
-        <img id="profile-image" src="resources/piv-smiling.jpg"/>
+    <div class="intro">
+      <span class="declaration">let</span> ossian <punctuation>=</punctuation> {
+      <div class="indent">
+        who<punctuation>:</punctuation> [ <span class="string">'front-end developer'</span>, <span
+          class="string">'photographer'</span> ], <br>
+        pronouns<punctuation>:</punctuation> [ <span class="string">'he'</span>, <span class="string">'him'</span>,
+        <span class="string">'his'</span> ], <br>
+        location<punctuation>:</punctuation> <span class="string">'Helsinki, Finland'</span>, <br>
       </div>
+      }
+    </div>
 
-      <div class="introduction">
-
-        <p id="name">Hey I'm Ossian</p>
-        <p>Student&nbsp; | &nbsp;Aspring Web Developer&nbsp; | &nbsp;Photographer</p>
-
-        <p class="summary">
-          I'm a programmer who loves all things visual. <br/> If I'm not on my laptop programming or designing a website I'm probably out somewhere with my camera or getting my hands dirty with a DIY project.
-        </p>
-
+    <div>
+      <br>
+      <span class="comment">// For work samples...</span> <br>
+      <span class="declaration">const</span> projects <punctuation>=</punctuation> {
+      <div class="indent">
+        code<punctuation>:</punctuation> [ <span class="string"><a href="https://github.com/Rikkokiri/">'Github'</a></span>, <span
+          class="string"><a href="https://codepen.io/rikkokiri">'CodePen'</a></span> ], <br>
+        photography<punctuation>:</punctuation> [ <span class="string"><a href="https://instagram.com/Rikkokiri">'Instagram'</a></span>, <span
+          class="string"><a href="https://www.flickr.com/photos/rikkokiri/albums/72157689065115305">'Flickr'</a></span>
+        ]
       </div>
+      }
+    </div>
+    <br>
 
-    </main>
-    <footer>
+    <div>
+      <span class="comment">// Where to find me?</span> <br>
+      <span class="declaration">const</span> contact <punctuation>=</punctuation> [
+      <span class="string"><a href="https://www.linkedin.com/in/ossianrajala">'LinkedIn'</a></span>,
+      <span class="string"><a href="https://twitter.com/Rikkokiri">'Twitter'</a></span> ]<br>
+    </div>
 
-      <div class="link-container">
+  </main>
+</body>
 
-        <ul class="social-links">
-          <!-- GitHub -->
-          <li>
-            <a href="https://github.com/Rikkokiri/">
-              <img src="resources/icons/github2.png " alt="GitHub" />
-            </a>
-          </li>
-          <li>
-            <!-- Instagram -->
-            <a href="https://www.instagram.com/rikkokiri/">
-              <img src="resources/icons/instagram.png" alt="Instagram" />
-            </a>
-          </li>
-          <li>
-            <!-- Flickrs --> <!-- TODO PORTFOLIO! -->
-            <a href="https://www.flickr.com/photos/rikkokiri/">
-              <img src="resources/icons/flickr.png" alt="Flickr" />
-            </a>
-          </li>
-          <li>
-            <!-- Twitter -->
-            <a href="https://twitter.com/Rikkokiri">
-              <img src="resources/icons/twitter.png" alt="Twitter" />
-            </a>
-          </li>
-          <li>
-            <!-- LinkedIn -->
-            <a href="https://www.linkedin.com/in/pilvirajala">
-              <img src="resources/icons/linkedin.png" alt="LinkedIn" />
-            </a>
-          </li>
-        </ul>
-      </div>
-    </footer>      
-
-
-    <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-  </body>
 </html>

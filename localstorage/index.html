@@ -10,13 +10,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Stylesheets -->
-    <link type="text/css" rel="stylesheet" href="../css/landingpage.css">
     <link type="text/css" rel="stylesheet" href="style.css">
 
     <!-- - - -  Fonts - - - -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;300;400;500;600;700&display=swap"
+        rel="stylesheet">
 
     <!-- Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -26,10 +26,21 @@
 
 <body>
     <main>
-        <h1 class="comment">/* WWW Applications: Local Storage */</h1>
+        <h1>WWW Applications: Local Storage Demo</h1>
+
+        <h2 id="greeting">Hello stranger!</h2>
+
+
+
+        <form id="userInfoForm">
+            <label for="yourName">What is your name?</label> <br>
+            <input name="yourName" id="yourName"> <br>
+            <!-- <p>Tell me so we don't need to be strangers anymore :)</p> -->
+
+            <input type="submit" value="Submit">
+        </form>
 
         <button id="clear">Clear local storage</button>
     </main>
 </body>
-
 </html>

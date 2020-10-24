@@ -30,15 +30,15 @@
 
         <h2 id="greeting">Hello stranger!</h2>
 
-
-
-        <form id="userInfoForm">
-            <label for="yourName">What is your name?</label> <br>
-            <input name="yourName" id="yourName"> <br>
-            <!-- <p>Tell me so we don't need to be strangers anymore :)</p> -->
-
-            <input type="submit" value="Submit">
-        </form>
+        <details id="hidable-form">
+            <summary>Tell me so we don't need to be strangers anymore :)</summary>
+            <form id="userInfoForm">
+                <label for="yourName">What is your name?</label> <br>
+                <input name="yourName" id="yourName" type="text" size="30"> <br>
+    
+                <input type="submit" value="Submit">
+            </form>
+        </details>
 
         <button id="clear">Clear local storage</button>
     </main>

@@ -74,11 +74,7 @@ a:hover::before {
   transform: scaleX(1);
 }
 
-punctuation {
-  color: #9a59c5;
-}
-
-button {
+button, input[type=submit] {
   font-family: "IBM Plex Mono", monospace;
   font-size: 1.25rem;
   padding: 0.5rem 1rem;
@@ -86,6 +82,21 @@ button {
   background: #2eccb0;
   border: none;
   border-radius: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+input[type=submit] {
+  margin-bottom: 2rem;
+}
+
+label {
+  font-size: inherit;
+}
+
+input[type=text] {
+  padding: 0.25rem 0.5rem;
+  margin-top: 0.5rem;
+  font-size: 1.25rem;
 }
 
 /*# sourceMappingURL=style.css.map */

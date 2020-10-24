@@ -8,6 +8,8 @@ function addListeners () {
     $("#clear").click(function( event) {
         localStorage.clear()
         console.log('Local storage cleared')
+
+        greetUser()
     })
 
     // Handle form submission
@@ -29,8 +31,12 @@ function greetUser () {
     const greeting = `Hello ${name}!`
 
     $( "#greeting" ).text(greeting)
-}
 
-function handleSubmit () {
-
+    if (name === 'stranger') {
+        $("#hidable-form").prop('open', 'true')
+        $("#hidable-form summary").text("Tell me so we don't need to be strangers anymore :)")
+    } else {
+        $("#hidable-form").prop('open', '')
+        $("#hidable-form summary").text("Wrong name? Reintroduce yourself!")
+    }
 }

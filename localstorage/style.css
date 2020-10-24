@@ -1,3 +1,83 @@
+/* Styling for the local storage demo page */
+html {
+  font-size: 14px;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  background: #13192c;
+  color: #ffffff;
+}
+
+main {
+  padding: 5vh 5vw;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.intro {
+  font-size: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+main * {
+  line-height: 1.5;
+}
+
+h1,
+h2 {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1;
+  padding-bottom: 2rem;
+  color: #476c97;
+  font-weight: 400;
+}
+
+a {
+  position: relative;
+  text-decoration: none;
+  color: #2eccb0;
+}
+
+a:hover,
+a:focus {
+  color: #b9aa1f;
+}
+
+a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #2eccb0;
+  visibility: hidden;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+a:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+punctuation {
+  color: #9a59c5;
+}
+
 button {
   font-family: "IBM Plex Mono", monospace;
   font-size: 1.25rem;
